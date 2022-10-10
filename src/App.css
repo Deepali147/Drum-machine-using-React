@@ -1,0 +1,28 @@
+.App{
+  display: flex;
+  justify-content: center;
+  padding-top: 23vh;
+  background-color: rgb(121, 14, 14);
+  height: 100vh;
+}
+.drum-pads{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+ 
+}
+.drum-pad{
+  padding:50px;
+  color: white;
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(12, 1, 1);
+  border: 1px solid white;
+}
+#display{
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
